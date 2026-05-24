@@ -16,3 +16,5 @@ if lado1 + lado2 > lado3 and lado1 + lado3 > lado2 and lado2 + lado3 > lado1:
         print('O triângulo é isósceles.')
     else:
         print('O triângulo é escaleno.')
+else:
+    print('Os valores fornecidos não podem formar um triângulo.')
